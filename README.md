@@ -2,15 +2,15 @@
 # CS110 Project Proposal
 # << Project Title >>
 ## CS 110 Final Project
-### << Semester, Year >>
+### Fall Semester, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
-<< [repl](#) >>
+https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
 << [link to demo presentation slides](#) >>
 
-### Team: << team name >>
-#### << Team Members >>
+### Team: Ryan & Keira
+#### Ryan Fanchiotti, Keira Talty
 
 ***
 
