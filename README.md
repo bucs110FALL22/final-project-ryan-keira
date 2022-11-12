@@ -44,7 +44,9 @@ https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
 * Non-Standard libraries
 -Import pygame: Imports all available pygame modules
+<https://www.pygame.org/docs/>
 -Import time: Allows the use of a time limit.
+<https://www.programiz.com/python-programming/time>
 
 * Class Interface Design
 1.<https://drive.google.com/file/d/15NihmahqCwvTF28L0J5oBpENMaMZL49b/view?usp=share_link>
