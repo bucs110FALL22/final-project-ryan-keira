@@ -41,9 +41,24 @@ https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 * Class Interface Design
     * << A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. >>
         * ![class diagram](assets/class_diagram.jpg) 
-* Classes
-    * << You should have a list of each of your classes with a description. >>
 
+* Non-Standard libraries
+-Import pygame: Imports all available pygame modules
+-Import time: Allows the use of a time limit.
+
+* Class Interface Design
+1.<https://drive.google.com/file/d/15NihmahqCwvTF28L0J5oBpENMaMZL49b/view?usp=share_link>
+2.<https://drive.google.com/file/d/1P-p7bvIMJ7E5gX9uqrfvbZYYx0iO-b57/view?usp=share_link>
+  
+* Classes
+1.Puck: Puck will move up, down, left, and right.
+2.Goal: Goal will move left and right.
+3.Table: Table will be an image on which the puck will move on.
+4.Timer: Will set time limit to 3 minutes
+5.Player 1: Will choose to be either the red or blue team. Will be able to use arrows to hit the puck either righ, left, up, or down.
+6.Player 2: Will choose to be either the red or blue team. Will be able to use arrows to hit the puck either righ, left, up, or down.
+
+  
 ## Project Structure and File List
 
 The Project is broken down into the following file structure:
