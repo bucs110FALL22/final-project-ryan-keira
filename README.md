@@ -1,9 +1,9 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# Air Hockey Game 
 ## CS 110 Final Project
 ### Fall Semester, 2022
-### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
+### [We will make an air hockey game which consists of two players using their paddles to move the puck towards their opponent's goal in a 3 minute time span.](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
 https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
@@ -16,14 +16,16 @@ https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
 ## Project Description
 
-<< Give an overview of your project >>
+We will create an air hockey game with the standard components: a puck, 2 players, 2 mallets, 2 goals, a table, a score board, and a countdown timer. The two players will compete for 3 minutes to score as many times as possible. 
 
 ***    
 
 ## User Interface Design
 
 - **Initial Concept**
-  - << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components. >>
+  - << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components.
+  -
+  - The first screen will be of the table, the puck in the middle, and the two strikers on their respective ends/ >>
     
     
 - **Final GUI**
@@ -49,8 +51,8 @@ https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 <https://www.programiz.com/python-programming/time>
 
 * Class Interface Design
-1.<https://drive.google.com/file/d/15NihmahqCwvTF28L0J5oBpENMaMZL49b/view?usp=share_link>
-2.<https://drive.google.com/file/d/1P-p7bvIMJ7E5gX9uqrfvbZYYx0iO-b57/view?usp=share_link>
+1.https://drive.google.com/file/d/15NihmahqCwvTF28L0J5oBpENMaMZL49b/view?usp=share_link
+2.https://drive.google.com/file/d/1P-p7bvIMJ7E5gX9uqrfvbZYYx0iO-b57/view?usp=share_link
   
 * Classes
 1.Puck: Puck will move up, down, left, and right.
@@ -77,16 +79,18 @@ The Project is broken down into the following file structure:
 
 ## Tasks and Responsibilities 
 
-   * Outline the team member roles and who was responsible for each class/method, both individual and collaborative.
+   * We worked together on all parts.
 
 ## Testing
 
-* << Describe your testing strategy for your project. >>
+* We plan to fix any bug as we go
 
 ## ATP
 
 | Step                 |Procedure             |Expected Results                   |
 |----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+|  1                   | Open terminal, enter 'python3 main.py' | Opens start screen where player is assigned disc color |
+|  2                   | Player 1 uses keys W,S,A,D to control player. Player 2 uses the 4 arrow keys| Strikers move accordingly |                        
+|  3                   | Player scores a goal by moving puck into opponent's goal| Counter on scoreboard rises accordingly |
+|  4                   | A player scores 5 goals | Game closes   
+

@@ -3,7 +3,7 @@ class Puck(pygame.sprite.Sprite):
   def __init__(self,x,y,speed):
     self.x = x
     self.y = y
-    self.image = pygame.image.load("")
+    self.image = pygame.image.load("assets/puck.png")
     self.rect = self.image.get_rect()
     self.speed = speed
   def move_right(self):
