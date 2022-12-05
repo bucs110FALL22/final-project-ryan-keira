@@ -3,7 +3,7 @@
 # Air Hockey Game 
 ## CS 110 Final Project
 ### Fall Semester, 2022
-### [We will make an air hockey game which consists of two players using their paddles to move the puck towards their opponent's goal in a 3 minute time span.](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
+### [We will make an air hockey game which consists of two players using their paddles to move the puck towards their opponent's goal. The goals will end when 1 player scores 5 goals.](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
 https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
@@ -16,7 +16,7 @@ https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
 ## Project Description
 
-We will create an air hockey game with the standard components: a puck, 2 players, 2 mallets, 2 goals, a table, a score board, and a countdown timer. The two players will compete for 3 minutes to score as many times as possible. 
+We will create an air hockey game with the standard components: a puck, 2 strikers, 2 goals, a table, and a score board. The two players will compete until 1 of them has scored 5 goals.After a goal is scored, the puck and the two strikers are reset to their respective positions. Once a player has scores 5 goals, the game closes.
 
 ***    
 
@@ -25,7 +25,8 @@ We will create an air hockey game with the standard components: a puck, 2 player
 - **Initial Concept**
   - << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components.
   -
-  - The first screen will be of the table, the puck in the middle, and the two strikers on their respective ends/ >>
+  1- The first screen will be of the table, the puck in the middle, and the two strikers on their respective ends
+  2-Game in action where the discs (controlled by the two players) are moving 
     
     
 - **Final GUI**
@@ -58,9 +59,8 @@ We will create an air hockey game with the standard components: a puck, 2 player
 1.Puck: Puck will move up, down, left, and right.
 2.Goal: Goal will move left and right.
 3.Table: Table will be an image on which the puck will move on.
-4.Timer: Will set time limit to 3 minutes
-5.Player 1: Will choose to be either the red or blue team. Will be able to use arrows to hit the puck either righ, left, up, or down.
-6.Player 2: Will choose to be either the red or blue team. Will be able to use arrows to hit the puck either righ, left, up, or down.
+3.Player 1: Will be either blue or green team. Will be able to use w, w, s, and d arrowkeys to move puck.
+4.Player 2: Will be able to hit the puck using the 4 arrowkeys.
 
   
 ## Project Structure and File List
@@ -92,5 +92,5 @@ The Project is broken down into the following file structure:
 |  1                   | Open terminal, enter 'python3 main.py' | Opens start screen where player is assigned disc color |
 |  2                   | Player 1 uses keys W,S,A,D to control player. Player 2 uses the 4 arrow keys| Strikers move accordingly |                        
 |  3                   | Player scores a goal by moving puck into opponent's goal| Counter on scoreboard rises accordingly |
-|  4                   | A player scores 5 goals | Game closes   
+|  4                   | A player scores 5 goals | Game closes|   
 

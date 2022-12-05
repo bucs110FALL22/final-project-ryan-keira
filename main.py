@@ -1,12 +1,13 @@
-#import your controller
-#def main():
-  #pygame.init()
-    #Create an instance on your controller object
-    #Call your mainloop
+from src.Controller import Controller
 
-    ###### NOTHING ELSE SHOULD GO IN main(), JUST THE ABOVE 3 LINES OF CODE ######
+def main():
+  puckspeed = 3
+  strikerspeed = 3
+  controller = Controller(puckspeed,strikerspeed)
+  controller.mainLoop()
 
-# https://codefather.tech/blog/if-name-main-python/
+main()
+  
 
-#if __name__ == '__main__':
-    #main()
+
+  
