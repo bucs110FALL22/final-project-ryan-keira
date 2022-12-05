@@ -17,6 +17,11 @@ class Striker(pygame.sprite.Sprite):
     self.pos = pos
 
   def adjust_position(self):
+    '''
+    creates vectors for the strikers
+	  args: none
+	  return: none
+    '''  
     puck_width = self.rect.w
     x_min_plane = self.pos[0]
     x_max_plane = self.pos[0]+self.board_width-puck_width
@@ -34,12 +39,11 @@ class Striker(pygame.sprite.Sprite):
       self.rect.y = y_max_plane   
 
   
-    
   def move_right(self):
     '''
     moves the striker to the right
 	  args: none
-	  return: striker moved to the right
+	  return: none
     '''  
     self.rect.x += self.speed
     self.adjust_position()
@@ -48,7 +52,7 @@ class Striker(pygame.sprite.Sprite):
     '''
     moves the striker to the left
 	  args: none
-	  return: striker moved to the left
+	  return: none
     '''  
     self.rect.x -= self.speed
     self.adjust_position()
@@ -57,7 +61,7 @@ class Striker(pygame.sprite.Sprite):
     '''
     moves the striker upwards
 	  args: none
-	  return: striker moved up
+	  return: none
     '''  
     self.rect.y -= self.speed
     self.adjust_position()
@@ -66,7 +70,7 @@ class Striker(pygame.sprite.Sprite):
     '''
     moves the striker downwards
 	  args: none
-	  return: striker moved down
+	  return: none
     '''  
     self.rect.y += self.speed
     self.adjust_position()

@@ -17,6 +17,11 @@ class Puck(pygame.sprite.Sprite):
     self.board_height = dimensions[1]
     self.pos = pos
   def adjust_position(self):
+    '''
+    creates vectors for the puck
+	  args: none
+	  return: none
+    '''  
     x_min_plane = self.pos[0]
     x_max_plane = self.pos[0]+self.board_width
     y_min_plane = self.pos[1]
@@ -31,32 +36,37 @@ class Puck(pygame.sprite.Sprite):
     '''
     moves the puck to the right
 	  args: none
-	  return: puck moved to the right
+	  return: none
     '''  
     self.rect.x += self.speed
   def move_left(self):
     '''
     moves the puck to the left
 	  args: none
-	  return: puck moved to the left
+	  return: none
     '''  
     self.rect.x -= self.speed
   def move_up(self):
     '''
     moves the puck upwards
 	  args: none
-	  return: puck moved up
+	  return: none
     '''  
     self.rect.y += self.speed
   def move_down(self):
     '''
     moves the puck downwards
 	  args: none
-	  return: puck moved down
+	  return: none
     '''  
     self.rect.y -= self.speed
 
   def update(self):
+    '''
+    changes x and y values based on vectors
+	  args: none
+	  return: none
+    '''  
     x = self.vector[0]*self.speed
     y = self.vector[1]*self.speed
 
