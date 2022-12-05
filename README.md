@@ -7,7 +7,7 @@
 
 https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
-<< [link to demo presentation slides](#) >>
+https://docs.google.com/presentation/d/1MsZPW9eEHG65eU5tRXVBQ07tW_jwpzvwOKNaoQly8Xg/edit?usp=sharing
 
 ### Team: Ryan & Keira
 #### Ryan Fanchiotti, Keira Talty
@@ -16,34 +16,31 @@ https://replit.com/join/ttoakbpsvm-ryanfanchiotti1
 
 ## Project Description
 
-We will create an air hockey game with the standard components: a puck, 2 strikers, 2 goals, a table, and a score board. The two players will compete until 1 of them has scored 5 goals.After a goal is scored, the puck and the two strikers are reset to their respective positions. Once a player has scores 5 goals, the game closes.
+We will create an air hockey game with the standard components: a puck, 2 strikers, 2 goals, and a table. The two players will compete until 1 of them has scored 3 goals. After a goal is scored, the puck and the two strikers are reset to their respective positions. Once a player has scores 3 goals, the game closes. In the consoloe, it will state which player has won.
 
 ***    
 
 ## User Interface Design
 
 - **Initial Concept**
-  - << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components.
-  -
-  1- The first screen will be of the table, the puck in the middle, and the two strikers on their respective ends
-  2-Game in action where the discs (controlled by the two players) are moving 
+-Start Screen/Game Screen/Game Over Screen Drawings:
+https://drive.google.com/file/d/1GM5FpswUzscjdpm713d-OdZ16uIIxaca/view?usp=sharing
+
+ 
     
-    
-- **Final GUI**
-  - << You should also have a screenshot of each screen for your final GUI >>
+- **Final GUI*
+
+-Start Screen Screenshot: https://drive.google.com/file/d/1gxEEs9YsMZUFj3sLQdDJNebifuPAJCL6/view?usp=share_link
+
+-Game Play Screen Screenshot:
+https://drive.google.com/file/d/1sc0B6OMv7V45DVEQoSJLosXkOBMxZ-RV/view?usp=sharing
+
+-Game Over Screen Screenshot:
+https://drive.google.com/file/d/1p4b3sUsOBAftyNDoZAXyawzoUXTog0mR/view?usp=sharing
 
 ***        
 
 ## Program Design
-
-* Non-Standard libraries
-    * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. 
-         For each additional module you should include
-         - url for the module documentation
-         - a short description of the module >>
-* Class Interface Design
-    * << A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. >>
-        * ![class diagram](assets/class_diagram.jpg) 
 
 * Non-Standard libraries
 -Import pygame: Imports all available pygame modules
@@ -69,11 +66,11 @@ The Project is broken down into the following file structure:
 
 * main.py
 * src
-    * << all of your python files should go here >>
+    
 * assets
-    * << all of your media, i.e. images, font files, etc, should go here) >>
+   
 * etc
-    * << This is a catch all folder for things that are not part of your project, but you want to keep with your project >>
+   
 
 ***
 
@@ -89,8 +86,8 @@ The Project is broken down into the following file structure:
 
 | Step                 |Procedure             |Expected Results                   |
 |----------------------|:--------------------:|----------------------------------:|
-|  1                   | Open terminal, enter 'python3 main.py' | Opens start screen where player is assigned disc color |
-|  2                   | Player 1 uses keys W,S,A,D to control player. Player 2 uses the 4 arrow keys| Strikers move accordingly |                        
-|  3                   | Player scores a goal by moving puck into opponent's goal| Counter on scoreboard rises accordingly |
-|  4                   | A player scores 5 goals | Game closes|   
+|  1                   | Open terminal, enter 'python3 main.py' | Opens start screen where directions show up explaining rules and score |
+|  2                   | Player 1 uses keys w,s,a,d to control player. Player 2 uses the 4 arrow keys| Strikers move accordingly |                        
+|  3                   | Player scores a goal by moving puck into opponent's goal| Player who scored earns one point |
+|  4                   | A player scores 3 goals | Game closes|   
 

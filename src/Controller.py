@@ -134,7 +134,7 @@ No return
   def mainLoop(self):
     while True:
       if self.state == "BEGIN":
-        msg2 = ["Player 1 will use the keypad", "to control their striker and the", "other player will use wasd", "first to 3 wins", "Press space to begin!"]
+        msg2 = ["Player 1 will use the keypad", "to control their striker and the", "other player will use wasd.", "First to 3 wins.", "Press space to begin!"]
         screen.fill('black')
         for i,m in enumerate(msg2):
             msg = self.font.render(m,False,'white')
