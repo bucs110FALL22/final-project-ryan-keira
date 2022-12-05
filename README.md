@@ -54,10 +54,8 @@ https://drive.google.com/file/d/1p4b3sUsOBAftyNDoZAXyawzoUXTog0mR/view?usp=shari
   
 * Classes
 1.Puck: Puck will move up, down, left, and right.
-2.Goal: Goal will move left and right.
-3.Table: Table will be an image on which the puck will move on.
-3.Player 1: Will be either blue or green team. Will be able to use w, w, s, and d arrowkeys to move puck.
-4.Player 2: Will be able to hit the puck using the 4 arrowkeys.
+2.Striker: Will be either blue or green team. Will be able to use w, a, s, and d or arrowkeys to move puck.
+3. Controller: Holds the game logic and runs the program
 
   
 ## Project Structure and File List
@@ -87,7 +85,8 @@ The Project is broken down into the following file structure:
 | Step                 |Procedure             |Expected Results                   |
 |----------------------|:--------------------:|----------------------------------:|
 |  1                   | Open terminal, enter 'python3 main.py' | Opens start screen where directions show up explaining rules and score |
-|  2                   | Player 1 uses keys w,s,a,d to control player. Player 2 uses the 4 arrow keys| Strikers move accordingly |                        
-|  3                   | Player scores a goal by moving puck into opponent's goal| Player who scored earns one point |
-|  4                   | A player scores 3 goals | Game closes|   
+|  2                   | Player presses space to enter the game | Objects appear on screen and game starts|
+|  3                   | Player 1 uses keys w,s,a,d to control player. Player 2 uses the 4 arrow keys| Strikers move accordingly |                        
+|  4                   | Player scores a goal by moving puck into opponent's goal| Player who scored earns one point |
+|  5                   | A player scores 3 goals | Game closes|   
 
